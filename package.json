@@ -1,11 +1,5 @@
 {
   "name": "quartz-web",
   "version": "1.0.0",
-  "description": "Kryštof Brůha — art practice website via Quartz",
-  "scripts": {
-    "build": "quartz build"
-  },
-  "dependencies": {
-    "@jackyzha0/quartz": "^4.0.0"
-  }
+  "description": "Kryštof Brůha — art practice website via Quartz"
 }
