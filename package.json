@@ -1,19 +1,11 @@
 {
   "name": "quartz-web",
   "version": "1.0.0",
-  "description": "Automatický deploy vaultu na GitHub Pages přes Quartz static site generator.",
-  "main": "index.js",
+  "description": "Kryštof Brůha — art practice website via Quartz",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "quartz build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@github-quartz:Hustopes/quartz-web.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "quartz": "^0.0.1"
+    "@jackyzha0/quartz": "^4.0.0"
   }
 }
