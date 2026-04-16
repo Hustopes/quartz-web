@@ -8,7 +8,7 @@ Umělec pracující na pomezí umění, vědy a techniky.
 
 ## Projekty
 
-Více informacíí o projektech naleznete v sekci [[projekty]].
+Více informací o projektech naleznete v sekci [[projekty]].
 
 ## Kontakt
 
