@@ -6,7 +6,7 @@ on:
       - main
   workflow_dispatch:
 
-# Strict permissions — only what's needed for pages deploy
+# Strict permissions - only what's needed for pages deploy
 permissions:
   contents: read
   pages: write
@@ -29,15 +29,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm
+
       - name: Install dependencies
-        run: npm ci
+        run: npm install
 
       - name: Build Quartz
         run: npx quartz build
         env:
-          # Optional: set these if using Quartz plugins that need them
-          # QUARTZ_BASE_URL: https://yourusername.github.io/quartz/
           FORCE_COLOR: 1
 
       - name: Upload pages artifact
