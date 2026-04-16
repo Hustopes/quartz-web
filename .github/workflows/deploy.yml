@@ -24,7 +24,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          submodules: true
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -33,14 +32,10 @@ jobs:
           cache: quartz
 
       - name: Install dependencies
-        run: |
-          cd quartz
-          npm ci
+        run: npm ci
 
       - name: Build Quartz
-        run: |
-          cd quartz
-          npx quartz build --directory ../content --output ../public
+        run: npx quartz build
         env:
           # Optional: set these if using Quartz plugins that need them
           # QUARTZ_BASE_URL: https://yourusername.github.io/quartz/
