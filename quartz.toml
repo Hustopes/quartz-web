@@ -1,0 +1,28 @@
+# Quartz Configuration
+# For full config options see: https://quartz.jzhao.xyz/configuration
+
+[general]
+name = "Obsidian Vault"
+description = "Personal knowledge base"
+# baseUrl = "https://yourusername.github.io/quartz/"  # Uncomment and set for GitHub Pages subpath
+
+[theme]
+cdnCaching = true
+
+[theme.lightMode]
+background = "#fafafa"
+lightgray = "#e5e5e5"
+gray = "#a3a3a3"
+darkgray = "#525252"
+dark = "#171717"
+accent = "#7c3aed"
+highlight = "#7c3aed15"
+
+[theme.darkMode]
+background = "#111111"
+lightgray = "#2a2a2a"
+gray = "#525252"
+darkgray = "#a3a3a3"
+dark = "#e5e5e5"
+accent = "#a78bfa"
+highlight = "#a78bfa15"
